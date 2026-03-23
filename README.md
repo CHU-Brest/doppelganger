@@ -1,7 +1,5 @@
 # Doppelgänger — Comptes Rendus d'Hospitalisation Synthétiques (FR)
 
-> **🚧 Ce dataset est une version préliminaire.** Des versions plus volumineuses et diversifiées seront publiées prochainement. Suivez ce dataset pour être notifié des mises à jour. 🚧
-
 ## Description
 
 Dataset de comptes rendus d'hospitalisation (CRH) fictifs en français, générés automatiquement à partir de statistiques PMSI nationales. Chaque CRH est rédigé dans un style médical classique CHU, avec données patient fictives (noms, dates, biologie, constantes vitales).
@@ -45,13 +43,9 @@ Le pipeline se déroule en 4 étapes :
 
 Ces données sont **entièrement fictives**. Aucun patient réel n'est représenté. Aucune donnée source individuelle n'est publiée — seuls les textes synthétiques générés par le LLM sont diffusés. Ce dataset ne doit pas être utilisé à des fins de diagnostic ou de décision médicale.
 
-## Licence
-
-CC BY-SA 4.0
-
 ## Annexe
 
-**Prompt** :
+**Prompt actuel** :
 
 ```yaml
 generate:
