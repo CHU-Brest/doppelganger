@@ -21,6 +21,7 @@ Le pipeline se déroule en 4 étapes :
 
 | Colonne | Description |
 |---|---|
+| `generation_id` | Identifiant unique du séjour (UUID v4), attribué dès le tirage. Permet d'apparier les CRH avec d'autres données issues du même pipeline. |
 | `scenario` | Scénario clinique structuré (patient, GHM, DP, actes CCAM, DAS, durée) avec codes et libellés |
 | `report` | Compte rendu d'hospitalisation fictif rédigé en français médical |
 | `model` | Modèle LLM utilisé pour la génération du CRH |
